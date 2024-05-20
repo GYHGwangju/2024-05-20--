@@ -31,10 +31,19 @@ ps 명령어는 현재 실행 중인 프로세스와 상태를 출력하는 명�
 
 man ps를 사용 시 ps 명령어와 관련된 매뉴얼을 볼 수 있는데, ps 명령어의 옵션은 각 시스템 계열 System V(-), BSD(- 사용 안 함), GNU(--)마다 다른 표기법 및 출력을 가지고 있다. 
 
+## jobs
+<img src='https://github.com/GYHGwangju/2024-05-20-20194572_Assignment/blob/main/jobs_in_here.png?raw=true'>
 
+jobs 명령어는 백그라운드로 실행 중인 프로세스나 현재 중지된 프로세스의 목록을 출력해 주는 명령어이다.
 
+- 첫 번째 열의 대괄호 안의 숫자는 잡 ID로 이 번호는 현재 셸에서 유효하다. 또한 그 다음에 있는 +는 bg나 fg 명령 실행시 기본 인자로 사용된다는 뜻이다. -는 +로 표시된 프로세스가 종료시 기본값으로 사용될 프로세스를 의미한다.
+- Running: 두 번째 열은 프로세스의 상태를 나타내고, 현재는 Running으로 실행중인 상태를 의미한다.
+- sleep 1000 &: 프로세스를 실행한 명령어.
 
+## kill
+<img src='https://github.com/GYHGwangju/2024-05-20-20194572_Assignment/blob/main/kill_in_here.png?raw=true'>
 
+kill 명령어는 프로세스를 **죽일(kill) 때** 사용한다.
 
 
 ---
@@ -43,3 +52,11 @@ man ps를 사용 시 ps 명령어와 관련된 매뉴얼을 볼 수 있는데, p
 [top 명령어 출처](https://velog.io/@ljk0509/EC2-top-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 
 [ps 명령어 출처](https://blog.naver.com/tmk0429/222318530824)
+
+[jobs 명령어 출처](https://www.lainyzine.com/ko/article/linux-jobs-command-usage/)
+
+[kill 명령어 출처](https://121202.tistory.com/45)
+
+----
+##### 여담
+<img src='https://i.imgur.com/cbHjY6c.jpg'>
